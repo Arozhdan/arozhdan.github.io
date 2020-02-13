@@ -1,0 +1,45 @@
+.intro {
+  margin-top: 200px;
+  margin-bottom: 250px;
+
+  .descriptipn {
+    display: flex;
+    align-items: center;
+  }
+
+  .description-image {
+    width: 50%;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+  .description__margin{
+    .description-image{
+      margin-right: 50px;
+    }
+  }
+}
+
+.features-wrapper {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.features-item {
+  text-align: center;
+  width: 30%;
+  padding: 200px 10px 30px;
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  .features-item-text {
+    width: 80%;
+    line-height: 1.4;
+    margin: 0 auto;
+  }
+}
