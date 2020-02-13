@@ -1,0 +1,50 @@
+.header {
+  background: linear-gradient(0deg, rgba(152, 195, 232, 0.685) 8.84%, rgba(152, 195, 232, 0) 61.12%), 
+  url(../img/header-bg.svg) right center no-repeat;
+  
+  min-height: 770px;
+
+}
+
+.header__top {
+  padding: 48px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  .logo {
+    height: 32px;
+    cursor: pointer;
+  }
+}
+
+.header__top__burger {
+  cursor: pointer;
+ 
+}
+
+.header__content {
+  max-width: 560px;
+  padding-top: 25px;
+}
+
+.header__content-title {
+  font-size: 54px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #1F3F68;
+  margin-bottom: 50px;
+}
+
+.header__content-text {
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding-bottom: 70px;
+}
+
+.header__content-btn {
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}

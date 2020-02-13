@@ -1,0 +1,76 @@
+.about {
+  padding-top: 192px;
+  position: relative;
+  margin-bottom: 612px;
+}
+
+.about__title {
+  max-width: 450px;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+
+.about__card {
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 48px;
+
+  &-fixed {
+    margin-top: 158px;
+    margin-left: 70px;
+    
+  }
+  &:hover{
+    box-shadow: 8px 25px 55px rgba(22, 59, 83, 0.2);
+  }
+}
+.about__card-icon{
+  margin: 0 auto;
+  display: block;
+}
+.about__card-title {
+  padding-top: 56px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  padding-bottom: 16px;
+}
+
+.about__card-text {
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding-bottom: 32px;
+}
+
+.about__card-link {
+  position: relative;
+  padding-right: 45px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0; 
+  &:after{
+    position: absolute;
+    right: 0px;
+    top: -3px;
+    content:url(../img/arrow-right.png);;
+   
+  }
+}
+.about__card-upper{
+  position: absolute;
+  top: 192px;
+  right: 250px;
+}
+.about__card-under{
+  position: absolute;
+  top: 817px;
+  right: 250px;
+}

@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1215px) {
+  .header {
+    background: linear-gradient(0deg, rgba(152, 195, 232, 0.685) 8.84%, rgba(152, 195, 232, 0) 61.12%), url(../../img/header-bg.svg) no-repeat;
+    background-size: cover;
+  }
+
+  .header__content-text {
+    font-weight: 700;
+    color: #000;
+    text-shadow: 1px 1px #000000;
+  }
+
+  .about__card {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 65px;
+    margin-top: 80px;
+  }
+
+  .about {
+    margin-bottom: 300px;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .projects-card-wrapper {
+    display: block;
+
+    .projects-card {
+      margin: 0 auto;
+      margin-bottom: 25px;
+    }
+  }
+
+  .contacts-container {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .header {
+    background: linear-gradient(0deg, rgba(152, 195, 232, 0.685) 8.84%, rgba(152, 195, 232, 0) 61.12%);
+  }
+
+  .clients-logo {
+    text-transform: uppercase;
+    width: 45%;
+    padding: 28px;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+  }
+
+  .footer-wrapper {
+
+    display: block;
+
+    ul {
+      text-align: center;
+    }
+  }
+
+  .footer-collection {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .header__content-title {
+    font-size: 25px;
+  }
+  .projects-card {
+    width: 282px;
+  }
+  .contacts-content__wrapper{
+    display: block;
+  }
+  .contacts-content__text{
+    margin-bottom: 25px;
+  }
+  .contacts-btn-wrapper {
+    margin-top: 5px;
+    height: 100%; 
+    margin-bottom: 100px;
+  }
+  .clients__desription{
+    display: block;
+  }
+  .projects__desription{
+    display: block;
+  }
+}

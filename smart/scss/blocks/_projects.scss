@@ -1,0 +1,90 @@
+.projects__desription {
+  display: flex;
+  padding-bottom: 108px;
+}
+
+.projects__desription-title {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  max-width: 289px;
+}
+
+.projects__desription-text {
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-left: 90px;
+}
+
+.smartHome {
+  max-width: 982px;
+ 
+  margin: 0 auto;
+  min-height: 487px;
+  background: url(../img/projects/projects-main.png) left bottom no-repeat,
+  rgba(31, 63, 104, 0.1);
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.smartHome-text {
+  padding-right: 60px;
+  padding-top: 48px;
+  text-align: right;
+}
+
+.smartHome__title {
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.smartHome__suptitle {
+
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ddd;
+  opacity: 0.8;
+}
+.projects-card-wrapper{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 192px;
+}
+.projects-card {
+  width: 422px;
+  height: 417px;
+  background: url(../img/projects/projects-first.png);
+  padding: 24px 0px 0px 32px;
+  border-radius: 10px;
+
+  &__title {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+
+  &__suptitle {
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  &:hover{
+    transform: translateY(2px);
+  }
+}
+.projects-card__second{
+  background: url(../img/projects/projects-second.png);
+}
