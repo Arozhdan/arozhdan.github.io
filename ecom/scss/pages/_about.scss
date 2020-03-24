@@ -1,0 +1,83 @@
+.intro-secondary  {
+  margin-top: 100px;
+}
+.gallery {
+  .slick-arrow {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.gallery-item {
+  padding: 550px 20px 0px ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &:hover .gallery-item-title {
+    opacity: 0.9;
+  }
+
+}
+
+.gallery-item-title {
+  transition: opacity 0.7s ease;
+  opacity: 0;
+  width: 200px;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: $secondary;
+  color: $white;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+}
+
+.gallery-arrow {
+  padding: 5px 15px;
+  color: $secondary;
+  font-weight: 700;
+  font-size: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  outline: none;
+  transition: all 0.4s ease;
+
+  &:hover {
+    opacity: 1;
+    color: $primary;
+    background-color: rgba(148, 144, 144, 0.137);
+  }
+}
+
+.gallery-next {
+  left: 55px;
+}
+
+.gallery-prev {
+  z-index: 2;
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  transition: translate 0.2s ease;
+
+  .slick-active {
+    color: $primary;
+    transform: translateY(-1px);
+  }
+}
+
+.gallery-dot {
+  font-size: 20px;
+  padding: 5px;
+  color: $secondary;
+}
+.btn-know{
+  margin: 20px 0;
+}

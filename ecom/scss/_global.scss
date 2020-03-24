@@ -1,0 +1,33 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+*,*:after,*:before{
+  box-sizing: border-box;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $black3;
+}
+button{
+  cursor: pointer;
+}
+p, h1, h2,h3,h4,h5,h6{
+  margin: 0;
+}
+ul{
+  padding: 0;
+}
+.hidden{
+  display: none;
+}
+.noscroll{
+  overflow: hidden;
+}

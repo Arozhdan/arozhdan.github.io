@@ -1,0 +1,49 @@
+.feedback {
+  margin: 150px 0;
+}
+
+.feedback-content {
+  margin-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+
+  .feedback-text {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    line-height: 1.4;
+    background-position: center 20px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+
+  .backquote {
+    font-size: 35px;
+    font-weight: 300;
+    position: absolute;
+    top: 170px;
+  }
+
+  .backquote__left {
+    left: 0;
+  }
+
+  .backquote__right {
+    right: 0;
+  }
+}
+
+.feedbacks-nav {
+  margin-top: 70px;
+}
+
+#feedback-nav-dot {
+  display: block !important;
+  width: 100px !important;
+  margin: 0 auto; 
+  border-radius: 50%;
+  display: block;
+}

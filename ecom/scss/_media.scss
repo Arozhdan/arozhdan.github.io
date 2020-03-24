@@ -1,0 +1,144 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media(max-width:1200px) {
+  .header-nav {
+    display: block;
+  }
+}
+
+@media(max-width:1000px) {
+  #searchInput {
+    display: none;
+  }
+}
+
+@media(max-width:800px) {
+  .portfolio-wrapper {
+    flex-wrap: wrap;
+  }
+  .portfolio-item {
+    width: 47%;
+  }
+}
+
+@media(max-width:700px) {
+
+  .features-wrapper,
+  .products-wrapper {
+    display: block !important;
+  }
+
+  .portfolio-item-img {
+    display: none;
+  }
+
+  .features-item {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .products-item {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    position: relative;
+  }
+
+  .feedbacks-nav {
+    display: none;
+  }
+
+  .courses-item {
+    width: 45%;
+  }
+}
+
+@media(max-width:600px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-wrapper {
+    display: block;
+
+    .portfolio-item {
+      width: 100%;
+    }
+  }
+
+  .career-video {
+    width: 100%;
+  }
+
+  .header-nav-right {
+    display: block;
+
+    a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    button {
+      display: block;
+      width: 30%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media(max-width:600px) {
+
+  .main-form {
+    width: 100%;
+  }
+
+  .position-wrapper {
+    display: block;
+  }
+
+  .position-popup-inner {
+    width: 90vw;
+  }
+
+  .courses-item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .courses-filters-wrapper {
+    flex-wrap: wrap;
+
+    .courses-filter {
+      width: 35%;
+      margin-bottom: 20px;
+    }
+  }
+  .portfolio-item {
+    width: 77%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  .blog-pages{
+    flex-wrap: wrap;
+  }
+}
