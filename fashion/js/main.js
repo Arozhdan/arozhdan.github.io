@@ -31,22 +31,22 @@ $(function () {
   //menu
   var $right = $('.menu-right')
   $('.menu-home').mouseover(function () {
-    $right.css('background-image', "url('/img/home/header-bg.png')");
+    $right.css('background-image', "url('img/home/header-bg.png')");
   })
   $('.menu-shop').mouseover(function () {
-    $right.css('background-image', "url('/img/menu/shop.png')");
+    $right.css('background-image', "url('img/menu/shop.png')");
   })
   $('.menu-video').mouseover(function () {
-    $right.css('background-image', "url('/img/menu/video.png')");
+    $right.css('background-image', "url('img/menu/video.png')");
   })
   $('.menu-look').mouseover(function () {
-    $right.css('background-image', "url('/img/menu/look.png')");
+    $right.css('background-image', "url('img/menu/look.png')");
   })
   $('.menu-about').mouseover(function () {
-    $right.css('background-image', "url('/img/menu/about.png')");
+    $right.css('background-image', "url('img/menu/about.png')");
   })
   $('.menu-contact').mouseover(function () {
-    $right.css('background-image', "url('/img/menu/contact.png')");
+    $right.css('background-image', "url('img/menu/contact.png')");
   })
   var $menu = $('.menu')
   $('.nav-burger').on('click', function () {
