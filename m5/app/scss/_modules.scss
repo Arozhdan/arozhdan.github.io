@@ -454,6 +454,7 @@
 }
 .menu{
   padding-top: 10%;
+  overflow-x: hidden;
 }
 .menu-nav-fixed-top{
   padding: 20px;
@@ -475,6 +476,9 @@
 }
 .menu-header-left-first {
   display: flex;
+  img{
+    max-width: 50%;
+  }
 }
 
 .menu-header-left {
