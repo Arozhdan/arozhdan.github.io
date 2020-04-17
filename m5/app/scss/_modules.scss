@@ -40,7 +40,7 @@
 }
 
 .article-image {
-  margin-left: -92px;
+  max-width: 30%;
   transition: all 0.3s;
 
   &:hover {
@@ -130,7 +130,7 @@
 }
 
 .interaction-image {
-  width: 100%;
+  max-width: 30%;
   margin-left: 5%;
 }
 

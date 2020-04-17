@@ -13,7 +13,7 @@ function dispay(targetItem) {
   $(targetItem).animate({
     'top': '0%'
   }, 900)
-  $('body').css('overflow', 'hidden')
+  $('body').css('overflow-x', 'hidden')
   setTimeout(
     function () {
       navBtn.html(`<img src="img/icn-navigation1.svg" alt="menu">`)
@@ -28,7 +28,7 @@ function dispay(targetItem) {
       $(targetItem).animate({
         'top': '150694px'
       }, 1500)
-      $('body').css('overflow', 'visible')
+      $('body').css('overflow-x', 'visible')
       setTimeout(
         function () {
           navBtn.html(`<img src="img/icn-navigation.svg" alt="menu">`)
@@ -61,7 +61,7 @@ function toggleMenu() {
     setTimeout(
       function () {
         $('.nav-fixed-top').css('display', 'none')
-        $('body').css('overflow', 'hidden')
+        $('body').css('overflow-x', 'hidden')
         $('.nav-burger').html(`<img src="img/icn-navigation1.svg" alt="menu">`)
       }, 1000);
 
@@ -75,7 +75,7 @@ function toggleMenu() {
     setTimeout(
       function () {
         $('.nav-fixed-top').css('display', 'block')
-        $('body').css('overflow', 'visible')
+        $('body').css('overflow-x', 'visible')
         $('.nav-burger').html(`<img src="img/icn-navigation.svg" alt="menu">`)
       }, 300);
   }
