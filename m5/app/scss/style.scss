@@ -3,7 +3,14 @@
 @import "fonts";
 
 
+//blocks
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/main-articles";
+
+//blocks
 
 
-
+@import "modules";
+@import "global";
 @import "media";

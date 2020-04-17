@@ -1,0 +1,166 @@
+@media (max-width:1103px) {
+  .header-wrapper {
+    padding: 170px 100px 240px 50px;
+  }
+  .article-1-intro .article-1-intro-span{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:973px) {
+  body {
+    font-size: 14px;
+  }
+
+  .nav {
+    height: 60vh;
+  }
+
+  .nav-logo {
+    img {
+
+      max-width: 150px;
+    }
+  }
+
+  .article-title {
+    max-width: 70%;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+
+  .main-collection-image {
+    max-width: 20%;
+  }
+
+  .main-collection-content {
+    max-width: 80%;
+  }
+  .article-1-share{
+    width: 70%;
+  }
+}
+
+@media (max-width:793px) {
+  .header-article {
+    width: 70%;
+  }
+
+  .article {
+    max-width: 70%;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  .header-title {
+    font-size: 2.2rem;
+  }
+
+  .nav {
+    right: 50px;
+  }
+  .article-1-intro .article-1-intro-span{
+    font-size: 1.2rem;
+
+  }
+  .article-1-title{
+    font-size: 2rem;
+  }
+  
+}
+
+@media (max-width:703px) {
+  .main-collection-image {
+    display: none;
+  }
+
+  .main-collection-content {
+    max-width: 100%;
+  }
+
+  .article-title,
+  .interaction-title {
+    font-size: 1.3rem;
+  }
+  .article-1-share{
+    width: 90%;
+  }
+}
+
+@media (max-width:630px) {
+  body {
+    font-size: 10px;
+  }
+
+  .header-wrapper {
+    padding: 120px 100px 180px 30px;
+  }
+
+  .header-title {
+    font-size: 1.8rem;
+  }
+
+  .article-title,
+  .interaction-title {
+    font-size: 1rem;
+  }
+  .article-1-intro{
+    display: none;
+  }
+  .article-1-author{
+    padding-left: 5px;
+  }
+  .article-1-footer{
+    width: 100%;
+  }
+}
+
+@media (max-width:530px) {
+  .nav {
+    height: 40vh;
+  }
+
+  .nav-logo {
+    img {
+
+      max-width: 100px;
+    }
+
+  }
+  .main-collection-wrapper{
+    padding-left: 0;
+  }
+  .main-collection-content {
+    padding-left: 65px;
+  }
+}
+@media (max-width:453px) {
+  .main-collection-content {
+    padding-left: 0;
+    &::after{
+      display: none;
+    }
+  }
+}
+@media (max-width:413px) {
+  .article-right{
+    padding-left: 50px;
+    &::after{
+      left: 20px;
+    }
+  }
+  .nav {
+    height: 30vh;
+  }
+
+  .nav-logo {
+    img {
+      max-width: 60px;
+    }
+  }
+  .main-collection .main-collection-btn{
+    margin-left: 10px;
+  }
+}

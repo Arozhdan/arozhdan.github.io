@@ -1,0 +1,38 @@
+.nav{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  top: 10vh;
+  right: 100px;
+  z-index: 686;
+ .nav-logo{
+   max-height: 60%;
+   img{
+     height: 100%;
+   }
+ }
+ max-width: 10%;
+}
+.nav-fixed-top{
+  padding: 10px 20px;
+  z-index: 690;
+  color: $gray;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  width: 80%;
+  cursor: default;
+
+}
+.nav-fixed-top-link{
+  text-transform: capitalize;
+  text-decoration: none;  
+  color: $gray-dark;
+  font-weight: 700;
+}

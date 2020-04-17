@@ -1,17 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Arozhdan</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-  
-  
+  <header class="header">
+    <div class="header-wrapper">
+      <h1 class="header-title">Bigger, Better, Faster, Stronger</h1>
+      <p class="article-description"> <span class="article-description-type">Read</span> | 467 words | June 2018 </p>
+      <p class="header-article article">
+        Times are changing fast and whilst some of us were simply born into this meteoric times there are others who
+        were not. How do our grandparents feel about change?
+      </p>
+      <button id="header-btn" class="header-btn btn-primary">
+        <span></span>Read more
+      </button>
+    </div>
+    <div class="header-right"></div>
+  </header>
+  <nav class="nav">
+    <div class="nav-logo">
+      <img src="img/my500-logo.svg" alt="Arik">
+    </div>
+    <div class="nav-burger">
+      <img src="img/icn-navigation.svg" alt="menu">
+    </div>
+  </nav>
+  <div class="nav-fixed-top">
+    <p class="nav-fixed-top-text">
+      <a href="index.html" class="nav-fixed-top-link">home</a>
+      | Welcome to M5
+    </p>
+  </div>
+  <section class="main-articles">
+    <div class="article-wrapper">
+      <img src="img/article1.svg" alt="article" class="article-image">
+      <div class="article-right">
+        <h1 class="article-title">It’s time to listen to the ones who know best </h1>
+        <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+        </p>
+        <p class="article">This is a descriptive sub-headline that introduces the whole content of this text to the
+          audience who is interested in reading about this topic.
+        </p>
+        <button class="header-btn btn-primary article-2-btn">
+          <span></span>Listen now
+        </button>
+      </div>
+    </div>
+    <div class="article-wrapper">
+      <img src="img/article2.svg" alt="article" class="article-image">
+      <div class="article-right">
+        <h1 class="article-title">There is always a solution.
+          Just go for it! </h1>
+        <p class="article-description"> <span class="article-description-type">Read</span> | 467 words | June 2018 </p>
+        <p class="article">Times are changing fast and whilst some of us were simply born into this meteoric times there
+          are others who were not.
+        </p>
+        <button class="header-btn btn-primary article-2-btn">
+          <span></span>Read more
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="main-choise">
+    <div class="interaction-wrapper">
+      <div class="interaction-content">
+        <h3 class="interaction-title">What a fancy poll!</h3>
+        <p class="interaction-text">Times are changing fast and whilst some of us were simply
+          born into this meteoric times there are others who were not.
+          How do you feel about change?</p>
+        <form class="interaction-form">
+          <label class="interaction-container" for="interaction-1">Love it! Show me the next big thing.
+            <input class="interaction-variant" type="checkbox" id="interaction-1" name="interaction-1" value="Like">
+            <span class="checkmark"></span>
+          </label><br>
+          <label class="interaction-container" for="interaction-2">Change is the only constant..
+            <input class="interaction-variant" type="checkbox" id="interaction-2" name="interaction-1" value="OK">
+            <span class="checkmark"></span>
+          </label><br>
+          <label class="interaction-container" for="interaction-3">Mehh! Don’t like it!
+            <input class="interaction-variant" type="checkbox" id="interaction-3" name="interaction-3"
+              value="Dont like">
+            <span class="checkmark"></span>
+          </label><br>
+          <button class="btn-primary"><span></span>Send opinion</button>
+        </form>
+      </div>
+      <img src="img/imgtile.svg" alt="article" class="interaction-image">
+    </div>
+  </section>
+  <section class="main-collection">
+    <div class="main-collection-wrapper">
+      <img src="img/imagetile-2.svg" alt="article" class="main-collection-image">
+      <div class="main-collection-content">
+        <div class="main-collection-item">
+          <h1 class="article-title">Find places in Berlin </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+            <button class="view-more-btn btn-primary main-collection-btn"><span></span>Read more</button></p>
+        </div>
+        <div class="main-collection-item">
+          <h1 class="article-title">How do pepole live in such a lively city? </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+            <button class="view-more-btn btn-primary main-collection-btn"><span></span>Read more</button></p>
+        </div>
+        <div class="main-collection-item">
+          <h1 class="article-title">Get some insights from Berlin locals and wander through the city</h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+            <button class="view-more-btn btn-primary main-collection-btn"><span></span>Read more</button></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- popup -->
+  <div class="article-1">
+    <div class="header-wrapper">
+      <p class="article-description"> <span class="article-description-type">Read</span> | 467 words | June 2018 </p>
+      <h1 class="header-title">Bigger, Better, Faster, Stronger but what if your
+        age is 70+?</h1>
+      <p class="header-article article">
+        Times are changing fast and whilst some of us were simply born into this meteoric times there are others who
+        were not. How do our grandparents feel about change?
+        <br>
+        Lorem bla bli blü dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ut Lorem ipsum
+        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed dia.Text Default Lorem ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.
+        <br><br>
+        Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed dia.Text DefaulLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        dia.Text DefaultLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed dia.
+      </p>
+    </div>
+    <div class="article-1-intro">
+      <img src="img/article2.svg" alt="article" class="article-image">
+      <img src="img/imagetile-2.svg" alt="article" class="article-secondary-img">
+      <span class="article-1-intro-span article-1-intro-span__heading">Everyting
+        changes</span>
+      <span class="article-1-intro-span">…and so do we! Some things will take longer or multiple attempts but we can do
+        it!</span>
+    </div>
+    <p class="article-1-main-paragraph">Deirmod tempor invidunt ut labore et dolore magna aliquyam.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+      dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.Text Default Lorem ipsum dolor sit amet,
+      consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+      dia.
+      <br><br>
+      Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+      magna aliquyam erat, sed dia.Text DefaulLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur
+      sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.Text
+      DefaultLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+      et dolore magna aliquyam erat, sed dia.</p>
+
+    <div class="article-1-author">
+      <div class="article-1-images">
+        <img src="img/article1.svg" class="article-image" alt="author">
+        <img src="img/imgtile.svg" alt="author">
+      </div>
+      <h3 class="article-1-title">“I’d say our best time
+        is now.”</h3>
+      <p class="article-1-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.Text
+        Default Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+        labore et dolore magna aliquyam erat, sed dia.
+        <br><br>
+        Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed dia.Text DefaulLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        dia.Text DefaultLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed dia.</p>
+      <div class="article-1-share">
+        <div class="author">
+          <img src="img/imagetile-2.svg" alt="author" class="author-image ">
+          <div class="author-data">
+            <p class="author-subtitle">Written by</p>
+            <p class="author-name">Mr. Robinson, Senior Editor</p>
+            <a href="#" class="author-link">@mrrob | hello@my500.com</a>
+          </div>
+        </div>
+        <button class="btn-primary"><span></span>Share this article</button>
+      </div>
+    </div>
+    <div class="article-1-footer">
+      <h3 class="article-1-footer-heading">Read more</h3>
+      <div class="article-wrapper">
+        <img src="img/article1.svg" alt="article" class="article-image">
+        <div class="article-right">
+          <h1 class="article-title">It’s time to listen to the ones who know best </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+          </p>
+          <p class="article">This is a descriptive sub-headline that introduces the whole content of this text to the
+            audience who is interested in reading about this topic.
+          </p>
+          <button class="header-btn btn-primary">
+            <span></span>Listen now
+          </button>
+        </div>
+      </div>
+      <div class="article-wrapper">
+        <img src="img/article2.svg" alt="article" class="article-image">
+        <div class="article-right">
+          <h1 class="article-title">It’s time to listen to the ones who know best </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+          </p>
+          <p class="article">This is a descriptive sub-headline that introduces the whole content of this text to the
+            audience who is interested in reading about this topic.
+          </p>
+          <button class="header-btn btn-primary">
+            <span></span>Listen now
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="article-2">
+    <div class="header-wrapper">
+      <div class="article-1-images">
+        <img src="img/article1.svg" class="article-image" alt="author">
+        <img src="img/imgtile.svg" alt="author">
+      </div>
+      <p class="article-description"> <span class="article-description-type">Read</span> | 467 words | June 2018 </p>
+      <h1 class="header-title">It’s time to listen to the ones who know best!</h1>
+      <p class="header-article article">
+        Times are changing fast and whilst some of us were simply born into this meteoric times there are others who
+        were not. How do our grandparents feel about change?
+        <br><br>
+        Lorem bla bli blü dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ut Lorem ipsum
+        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed dia.Text Default Lorem ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.
+        <br><br>
+        Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed dia.Text DefaulLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        dia.Text DefaultLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed dia.
+      </p>
+      <div class="audio">
+        <div class="audio-img">
+          <img src="img/Button-outline-play.svg" alt="play">
+        </div>
+        <div class="audio-content">
+          <p class="audio-content-data"><span>Audio</span> | 1:05:21/ 2:10:00</p>
+          <p class="audio-name">Historical interview with a very interesting Person</p>
+          <p class="audio-author">Name Name, Job Title, Location</p>
+        </div>
+      </div>
+      <p class="header-article article">
+        Times are changing fast and whilst some of us were simply born into this meteoric times there are others who
+        were not. How do our grandparents feel about change?
+        <br><br>
+        Lorem bla bli blü dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ut Lorem ipsum
+        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed dia.Text Default Lorem ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.
+        <br><br></p>
+    </div>
+    <div class="article-2-additional">
+      <div class="article-1-share">
+        <div class="author">
+          <img src="img/imagetile-2.svg" alt="author" class="author-image ">
+          <div class="author-data">
+            <p class="author-subtitle">Written by</p>
+            <p class="author-name">Mr. Robinson, Senior Editor</p>
+            <a href="#" class="author-link">@mrrob | hello@my500.com</a>
+          </div>
+        </div>
+        <button class="btn-primary"><span></span>Share this article</button>
+      </div>
+
+    </div>
+    <div class="article-1-footer">
+      <h3 class="article-1-footer-heading">Read more</h3>
+      <div class="article-wrapper">
+        <img src="img/article1.svg" alt="article" class="article-image">
+        <div class="article-right">
+          <h1 class="article-title">It’s time to listen to the ones who know best </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+          </p>
+          <p class="article">This is a descriptive sub-headline that introduces the whole content of this text to the
+            audience who is interested in reading about this topic.
+          </p>
+          <button class="header-btn btn-primary">
+            <span></span>Listen now
+          </button>
+        </div>
+      </div>
+
+      <div class="article-wrapper">
+        <img src="img/article2.svg" alt="article" class="article-image">
+        <div class="article-right">
+          <h1 class="article-title">It’s time to listen to the ones who know best </h1>
+          <p class="article-description"> <span class="article-description-type">Listen</span> | 467 words | June 2018
+          </p>
+          <p class="article">This is a descriptive sub-headline that introduces the whole content of this text to the
+            audience who is interested in reading about this topic.
+          </p>
+          <button class="header-btn btn-primary">
+            <span></span>Listen now
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="article-popup">
+    <h2 class="article-popup-heading">
+      Hire me and get more!
+    </h2>
+    <p class="article-popup-content">
+      Baibussynov Arozhdan
+    </p>
+    <a href="https://wa.me/420777531718" class="article-popup-link">Text me now</a>
+  </div>
+  <!-- //popup -->
+
+  <!-- Menu -->
+  <div class="menu">
+    <div class="menu-header-wrapper">
+      <div class="menu-header-left">
+        <div class="menu-header-left-first">
+          <img src="img/imgtile.svg" alt="article" class="menu-header-left-first-img">
+          <h2 class="menu-header-first-title">
+            Arozhdan Baibussynov
+          </h2>
+        </div>
+        <div class="menu-header-left-second">
+          <h2 class="menu-header-second-title">
+            Hire me and get a good quality
+          </h2>
+          <img src="img/imagetile-2.svg" alt="article" class="menu-header-left-second-img">
+        </div>
+      </div>
+    </div>
+    <div class="menu-content">
+      <p>
+        The Name – MY500
+      </p><br><br>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed dia. Hui ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dia.Text Default Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        dia.
+
+      </p>
+    </div>
+    <div class="menu-contacts">
+      <div class="article-1-share">
+        <div class="author">
+          <div class="author-image-wrapper">
+            <img src="img/avatar.jpg" alt="author" class="my-img">
+          </div>
+          <div class="author-data">
+            <p class="author-subtitle">Written by</p>
+            <p class="author-name">Mr. Baibussynov, Junior Frontender</p>
+            <a href="#" class="author-link">@gmail | abaibussynov@gmail.com</a>
+          </div>
+        </div>
+        <a href="https://wa.me/420777531718" class="link-btn btn-primary">Call me now</a>
+      </div>
+    </div>
+    <div class="menu-nav-fixed-top">
+      <p class="nav-fixed-top-text">
+        <a href="index.html" class="nav-fixed-top-link">home | </a>
+        <button  href="index.html" class="view-more-btn nav-fixed-top-btn">about </button> |
+        <button href="index.html" class="view-more-btn nav-fixed-top-btn">Contacts</button>
+      </p>
+    </div>
+
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
