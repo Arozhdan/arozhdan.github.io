@@ -1,0 +1,41 @@
+.contacts{
+  padding: 115px;
+}
+.contacts-text{
+  text-align: center;
+  line-height: 1.5;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.contact-btn{
+  background-color: transparent;
+  border:1px solid #000;
+  border-radius: 15px;
+  padding: 13px 28px;
+  font-weight: 700;
+  transition: all 0.3s;
+  outline: none;
+  &:hover{
+    background-color: #000;
+    color: #fff;
+  }
+}
+.footer-links-wrapper{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  .footer-link{
+    transition: all 0.3s;
+    height: 30px;
+    &:hover{
+      transform: scale(1.2);
+      
+
+    }
+  }
+}

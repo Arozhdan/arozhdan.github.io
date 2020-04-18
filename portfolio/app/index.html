@@ -1,17 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Arozhdan</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-  
-  
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-wrapper">
+        <button class="nav-btn  nav-btn__home nav-btn__active">Дом</button>
+        <button class="nav-btn nav-btn__about ">Обо мне</button>
+        <button class="nav-btn nav-btn__skills ">Навыки</button>
+        <button class="nav-btn nav-btn__portfolio ">Работы</button>
+        <button class="nav-btn nav-btn__contacts ">Контакты</button>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div class="header-intro">
+        <h1 class="header-logo">Arozhdan <br> Baibussynov</h1>
+        <p class="header-occupancy">
+          Верстальщик | Frontend разработчик <br>
+          20 лет, Валенсия
+        </p>
+        <div class="header-lang-wrapper">
+          <div class="header-lang"><button class="lang-selection lang-selected">RU</button> | <button
+              class="lang-selection">ENG</button>
+          </div>
+        </div>
+      </div>
+      <div class="header-img">
+        <img src="img/internet-3116062_1920.jpg" alt="">
+      </div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">Обо мне</h2>
+      <p class="about-content">
+        Всем привет! Меня зовут <b>Байбусынов Арождан</b>, 20лет. В настоящее время прохожу обучение в сфере IT по обмену в
+        Испании. Frontend'ом занимаюсь больше двух лет, привлекает возможность мгновенно видеть результат) <br><br> Верстку учу
+        самостоятельно, постоянно в
+        консультировался со множеством профессоров (в том числе из Праги и Валенсии), проходил множество
+        онлайн и оффлайн курсов.
+      </p>
+    </div>
+  </section>
+  <section class="skills">
+    <div class="container">
+      <h2 class="section-title">Навыки</h2>
+      <div class="skills-wrapper">
+        <div class="skills-item skills-item__html">
+          <div class="skills-item-img">
+            <img src="img/html-5.svg" alt="html">
+          </div>
+          <p class="skills-item-title">Html</p>
+        </div>
+        <div class="skills-item skills-item__css">
+          <div class="skills-item-img">
+            <img src="img/css-3.svg" alt="css">
+          </div>
+          <p class="skills-item-title">CSS</p>
+        </div>
+        <div class="skills-item skills-item__js">
+          <div class="skills-item-img">
+            <img src="img/javascript.svg" alt="JS">
+          </div>
+          <p class="skills-item-title">JavaScript</p>
+        </div>
+        <div class="skills-item skills-item__php">
+          <div class="skills-item-img">
+            <img src="img/php.svg" alt="PHP">
+          </div>
+          <p class="skills-item-title">Backend</p>
+        </div>
+      </div>
+      <button id="skill-more-btn" class="skills-more"><img src="img/expand-button.svg" alt="more" class="more"></button>
+      <p class="skills-paragraph">
+        HTML, CSS, JAVASCRIPT, JQUERY, РАЗЛИЧНЫЕ БИБЛИОТЕКИ (SLICK SLIDER, AOS, ANIMATE.CSS), BOOTSTRAP 4, CSS
+        ПРЕПРОЦЕССОРЫ (SCSS, SASS, LESS), БЭМ, кроссбраузерность, адаптивная верстка, OCTOBER CMS + основы WordPress,
+        NPM, GULP, GIT, ОСНОВЫ NODE JS + EXPERIENCE + ШАБЛОНИЗАТОРА EJS + MongoDB.
+        <br><br>
+        Английский B2/C1
+      </p>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="section-title">Портфолио</h2>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-item-image">
+          <a target="_blank" href="https://arozhdan.github.io/fashion/index.html">
+            <img src="img/work1.jpg" alt="work"></a>
+        </div>
+        <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/fashion/index.html">Личный
+            сайт Youtube и
+            Instagram блоггера</a></h2>
+        <p class="portfolio-item-suptitle">
+          <a target="_blank" href="https://github.com/Arozhdan/fashion">Код на GitHub</a>
+
+        </p>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-item-image">
+          <a target="_blank" href="https://arozhdan.github.io/m5/app/">
+            <img src="img/work2.jpg" alt="work"></a>
+        </div>
+        <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/m5/app/">Новостной блог</a>
+        </h2>
+        <p class="portfolio-item-suptitle">
+          <a target="_blank" href="https://github.com/Arozhdan/arozhdan.github.io/tree/master/m5">Код на GitHub</a>
+        </p>
+      </div>
+
+      <button id="work-more" class="skills-more"><img src="img/expand-button.svg" alt="more" class="more"></button>
+      <div class="portfolio-additional">
+        <div class="portfolio-additional-wrapper">
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/gotech/">
+                <img src="img/wokr4.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/gotech/">Прототип
+                многостраничного сайта (устарело)</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/gotech">Код на
+                GitHub</a>
+            </p>
+          </div>
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/quiz/">
+                <img src="img/work5.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/quiz/">
+                Quiz на ванильном JavaScript</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/arozhdan.github.io/tree/master/quiz">Код на
+                GitHub</a>
+            </p>
+          </div>
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/crm/02-crm-all-bids.html?fiter=new">
+                <img src="img/work6.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank"
+                href="https://arozhdan.github.io/crm/02-crm-all-bids.html?fiter=new">
+                Учебный проект по JavaScript</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/crm">Код на
+                GitHub</a>
+            </p>
+          </div>
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/eshop/">
+                <img src="img/work7.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/eshop/">
+                Онлайн магазин | Учебный проект</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/eShop">Код на
+                GitHub</a>
+            </p>
+          </div>
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/smart/">
+                <img src="img/work8.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank" href="https://arozhdan.github.io/smart/">
+                Прототип лэндинга (устарело)</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/smartHome">Код на
+                GitHub</a>
+            </p>
+          </div>
+          <div class="portfolio-additional-item">
+            <div class="portfolio-item-image">
+              <a target="_blank" href="https://arozhdan.github.io/color/colorGame.html">
+                <img src="img/work3.jpg" alt="work"></a>
+            </div>
+            <h2 class="portfolio-item-title"><a target="_blank"
+                href="https://arozhdan.github.io/color/colorGame.html">Игра
+                на нативном JS</a>
+            </h2>
+            <p class="portfolio-item-suptitle">
+              <a target="_blank" href="https://github.com/Arozhdan/arozhdan.github.io/tree/master/color">Код на
+                GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="contacts">
+    <div class="container">
+      <h2 class="section-title">Контакты</h2>
+      <p class="contacts-text">Имеются вопросы или предложения?<br>Напишите мне!</p>
+      <div class="btn-wrapper">
+        <button class="contact-btn">Написать</button>
+      </div>
+    </div>
+    <div class="footer-links-wrapper">
+      <a href="#"><img src="img/instagram.svg" alt="social" class="footer-link"></a>
+      <a href="#"><img src="img/vk.svg" alt="social" class="footer-link"></a>
+      <a href="#"><img src="img/whatsapp.svg" alt="social" class="footer-link"></a>
+      <a href="#"><img src="img/telegram.svg" alt="social" class="footer-link"></a>
+      <a href="#"><img src="img/envelope.svg" alt="social" class="footer-link"></a>
+
+
+
+
+    </div>
+  </footer>
+  <nav class="mobile-nav">
+    <div class="mobile-nav-burger">
+    </div>
+    <div class="mobile-menu-list-wrapper">
+      <div class="mobile-menu-list">
+        <button class="nav-btn  nav-btn__home nav-btn__active">Дом</button>
+        <button class="nav-btn nav-btn__about ">Обо мне</button>
+        <button class="nav-btn nav-btn__skills ">Навыки</button>
+        <button class="nav-btn nav-btn__portfolio ">Работы</button>
+        <button class="nav-btn nav-btn__contacts ">Контакты</button>
+      </div>
+    </div>
+  </nav>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/lang.js"></script>
+
 </body>
+
 </html>

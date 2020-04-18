@@ -1,0 +1,92 @@
+@media (max-width:963px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header-logo {
+    font-size: 2.2rem;
+  }
+
+  .skills-item {
+    max-width: 20%;
+  }
+
+  .footer-links-wrapper {
+    width: 50%;
+  }
+
+  .header-logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:823px) {
+  .about-content {
+    min-width: 80%;
+  }
+
+  .skills-wrapper {
+    flex-wrap: wrap;
+
+  }
+
+  .skills-item {
+    max-width: 35%;
+    width: 35%;
+  }
+
+  .portfolio-additional-item {
+    max-width: 45%;
+    width: 45%;
+  }
+}
+
+@media (max-width:685px) {
+  .header-logo{
+    font-size: 1.2rem;
+  }
+  .header-occupancy{
+    font-size: 0.6rem;
+  }
+  .header-lang-wrapper{
+    width: 20%;
+  }
+  .footer-links-wrapper {
+    width: 100%;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about {
+    padding: 120px 50px;
+  }
+}
+
+@media (max-width:455px) {
+  .nav{
+    display: none;
+  }
+  .mobile-nav-burger{
+    display: block;
+  }
+  .header{
+    margin-top: 80px;
+  }
+  .portfolio-wrapper+.portfolio-wrapper{
+    margin-top: 10px;
+  }
+  .contacts {
+    padding: 115px 50px;
+  }
+  .portfolio-item-title{
+    a{
+
+      font-size: 1rem;
+    }
+  }
+  .header-logo{
+    font-size: 1rem;
+  }
+}
